@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="contentStyle.css" />
+    <link rel="stylesheet" type="text/css" href="stylePageTeory.css" />
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="module.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/xe.json", { onProgress: UnityProgress });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="top_menu">
+            <div class="content">
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="Logo_images/logo4.png" />
+                    </a>
+                </div>
+                <div class="main_menu">
+                    <ul>
+                        <li><a href="theory_page.html">Теория</a></li>
+                        <li><a href="device_description.html">Описание установки</a></li>
+                        <li><a href="practical_page.html">Практика</a></li>
+                        <li><a href="about_author.html">Об авторе</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="content" >
+        <div class="practical_content">
+            <div class="webgl-content">
+                <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                <div class="footer">
+                    <div class="webgl-logo"></div>
+                    <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                    <div class="title">New Unity Project111</div>
+                </div>
+            </div>
+        </div>
+        <h2 class="_caption">Порядок выполнения работы и обработка результатов</h2>
+        <p class="_txt">
+            Включите сетевой шнур прибора в сеть и нажмите кнопку «СЕТЬ» на задней панели прибора (при этом загораются индикаторы цифрового табло), нажмите кнопки «СТОП» и «СБРОС». Цифровые индикаторы должны установиться в состояние «0».
+        </p>
+        <p class="_txt">
+            Переключатель работы блока дискриминатора будет по умолчанию в верхнее положение «Интегральный».
+        </p>
+        <p class="_txt">
+            Ручкой регулятора напряжения блока дискриминатора установите напряжение 750 В. Нажмите кнопку «ПУСК» ПСО, которое начнет считать импульсы, поступающие с блока детектирования.
+            По истечении времени счет автоматически прекращается и на цифровом табло отображается результат измерения.
+        </p>
+        <p class="_txt">
+            Проведите три измерения числа n импульсов от гамма-фона и найдите среднее арифметическое значение n(среднее) .
+        </p>
+        <p class="_txt">
+            В этом же положении ручки регулятора напряжения дискриминатора (750 В) установите под сцинтиллятор источник
+            гамма-излучения и проведите три измерения числа импульсов n от источника.
+        </p>
+        <p class="_txt">
+            Результаты измерений занесите в таблицу.
+        </p>
+        <img src="TeoryImages/table.png" class="teoryImg" width="970" />
+        <p class="_txt">
+            Далее проведите по три измерения от фона и от источника излучения при напряжениях дискриминатора соответственно 825, 900, 950 и 1000 В и найдите средние арифметические значения.
+            Найдите n(c) по формуле, приведенной в таблице выше.
+        </p>
+        <h2 class="_caption">Управление виртуальным комплексов</h2>
+        <p class="_txt">
+            Для перемещения по виртуальной лаборатории используйте клавиши <b>w</b>, <b>d</b>, <b>s</b>, <b>a</b>.
+        </p>
+        <p class="_txt">
+            Перемещайте мышь, чтобы вращать камеру.
+        </p>
+        <p class="_txt">
+            Для нажатия кнопок приборов используйте левую клавишу мыши.
+        </p>
+        <p class="_txt">
+            Для увеличения напряжения нажимайте <b>лкм</b>, для снижения уровня напряжение нажимайте <b>пкм</b>.
+        </p>
+        <p class="_txt">
+            Чтобы отключить озвучку кнопок при наведении на них нажмите клавишу клавиатуры  <b>T</b>, а для включения -  <b>R</b>.
+        </p>
+    </div>
+        <div class="footer">
+            <div class="content">
+                <div class="footerMenu">
+                    <ul>
+                        <li><a href="theory_page.html">Теория</a></li>
+                        <li><a href="#">Описание установки</a></li>
+                        <li><a href="#">Практика</a></li>
+                        <li><a href="#">Об авторе</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <p>Контактная информация:</p>
+                    <p>E-mail: romanchik.aleksej@bk.ru</p>
+                    <p>Телефон(МТС): +375(33)888-77-55</p>
+                    <p>Страница вк: <a href="https://vk.com/alexeyromanchik">https://vk.com/alexeyromanchik</a></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

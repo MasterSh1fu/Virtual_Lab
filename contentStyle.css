@@ -1,0 +1,102 @@
+/*Стили для контента основной страницы*/
+.paragraph {
+    height: 330px;
+    padding: 30px;
+    font-family: Arial;
+    color: #6D6C6C;
+    font-size: 18px;
+    text-align: justify;
+    position: relative;
+}
+.contentImages {
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 1px 1px 5px black;
+    float: left;
+    text-align: right;
+    margin: 10px 50px 10px 10px;
+}
+.contentImages2 {
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+    box-shadow: 1px 1px 5px black;
+    float: right;
+    text-align: left;
+    margin: 10px 10px 10px 50px;
+}
+.paragraph h2{
+    margin: 15px;
+    font-family: Impact;
+    color: #343333;
+    font-size: 28px;
+}
+.contentButton {
+    display: block;
+    padding: 10px 30px;
+    position: absolute;
+    color: white;
+    background: #F63838;
+    text-decoration: none;
+    font-family: Impact;
+    text-shadow: 2px 2px 5px black;
+    right: 0px;
+    bottom: 0px;
+    margin: 40px 30px;
+}
+.contentButton2 {
+    display: block;
+    padding: 10px 30px;
+    position: absolute;
+    color: white;
+    background: #F63838;
+    text-decoration: none;
+    font-family: Impact;
+    text-shadow: 2px 2px 5px black;
+    left: 0px;
+    bottom: 0px;
+    margin: 40px 30px;
+}
+.contentButton:hover {
+    background: #BD0404;
+}
+
+.contentButton2:hover {
+    background: #BD0404;
+}
+/*Стили для подвала*/
+.footer {
+    width: 100%;
+    height: 300px;
+    background: #343333;
+}
+.footer ul{
+    list-style:none;
+}
+.footer ul li{
+    padding: 10px;
+}
+.footer ul a, .contacts a{
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footerMenu{
+    width: 440px;
+    float: left;
+    padding: 30px;
+}
+.footer ul a:hover, .contacts a:hover{
+    text-decoration: underline;
+}
+.contacts {
+    float: right;
+    width: 440px;
+    padding: 30px;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}

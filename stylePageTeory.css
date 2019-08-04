@@ -1,0 +1,56 @@
+.table_content ul {
+    list-style: none;
+}
+
+.table_content li a {
+    text-decoration: none;
+    color: white;
+    background: #BD0404;
+    font-family: Impact;
+    text-shadow: 2px 2px 5px black;
+    display: block;
+    font-size: 18px;
+    width: 350px;
+    padding: 20px;
+    border-bottom: 1px solid #F63838;
+}
+.table_content li a:hover {
+    background: #F63838;
+    width: 450px;
+    transition: all 0.6s;
+}
+._caption {
+    font-family: Impact;
+    color: #343333;
+    font-size: 28px;
+}
+
+._txt {
+    font-family: Arial;
+    color: #6D6C6C;
+    font-size: 18px;
+    text-align:justify;
+}
+.teoryImg {
+    text-align: center;
+    margin: auto;
+}
+.contentTeory {
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+}
+
+.PhotoImg {
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 50px;
+    display: block;
+}
+.content1 {
+    width: 1000px;
+    margin: auto;
+    padding: 0px;
+    min-height: 600px;
+}
